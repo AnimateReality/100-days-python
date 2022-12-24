@@ -18,10 +18,10 @@ print("You're mission is ot find the hidden treasure")
 
 choice1 = input('You\'re at a cross road Where do you want to go? Type "left" or "right"').lower()
 if choice1 == "left":
-    choice2 = input('Would you like to "swim" across the lake or "wait"?')  
+    choice2 = input('Would you like to "swim" across the lake or "wait"?').lower()  
     if choice2 == "wait":
         print("You arrive at and intersection with 3 doors. Red, Blue and Yellow.")
-        choice3 = input('Type to choose which: "red", "blue" or "yellow"?')
+        choice3 = input('Type to choose which: "red", "blue" or "yellow"?').lower()
         if choice3 == "blue":
             print("You got burned by fire. \nGame Over")
         elif choice3 == "blue":
