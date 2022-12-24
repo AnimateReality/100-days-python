@@ -5,23 +5,29 @@ extra_cheese = input("Do you want extra cheese?")
 total = 0
 if size == "L":
     total = 25
-if add_pepperoni == "Y":
-    total += 2
-if extra_cheese == "Y":
-    total += 3
-if size == "M":
+elif size == "M":
     total = 20
-if add_pepperoni == "Y":
-    total += 2
-if extra_cheese == "Y":
-    total += 3
-if size == "S":
+elif size == "S":
     total = 15
-if add_pepperoni == "Y":
-    total += 2
-if extra_cheese == "Y":
-    total += 3
 
-# work in progress right now I read the brief wrong
+if add_pepperoni == "Y":
+    if size == "S":
+        total += 2
+    else:
+        total += 3
+
+if extra_cheese == "Y":
+    total += 1
+
 
 print(total)
+
+# The program: 
+# Small Pizza: 15
+# Medium Pizza: 20
+# Large Pizza: 25
+
+# Pepperoni for small: +2
+# Pepperoni for medium or large: +3
+
+# Extra cheese for any size pizza: +1
