@@ -1,2 +1,4 @@
-on in range(len(chosen_word)):
-    letter 
+    if letter == "_":
+            end_of_game == False
+        else:
+            end_of_game == True
