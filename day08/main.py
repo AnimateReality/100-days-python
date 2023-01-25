@@ -25,5 +25,5 @@ greet_with("Jack Bauer", "Nowhere")
 greet_with("Nowhere", "Jack Bauer")
 
 
-#Calling greet_with() with Keyword Arguments
+#Calling greet_with() with Keyword Arguments - avoids mess ups with position
 greet_with(location="London", name="Angela")
